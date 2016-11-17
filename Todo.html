@@ -152,7 +152,31 @@
 
             .ch-item:hover .ch-info {
             	opacity: 1;
-            	transform: scale(1);	
+            	transform: scale(1);
+            }
+
+            .abox {
+                display: inline-block;
+                width: 300px;
+                text-align: center;
+                margin-right: 5px;
+                padding: 5px;
+            }
+
+            .box-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .abox img {
+                border: medium solid #FFFBF0;
+                border-radius: 19px;
+                box-shadow: 0px 0px 11px #000000;
+            }
+
+            .abox h1 {
+                text-align: left;
             }
         </style>
     </head>
@@ -160,7 +184,7 @@
         <header>
             <nav>
                 <div class="nav-container">
-                    <img id="id-img-logo" class="shake shake-hard" src="images/logo.png" alt="" />
+                    <img id="id-img-logo" class="shake shake-hard" src="images/logo.png" alt=""/>
                     <form class="search" action="index.html" method="post">
                         <input id="id-input-search" type="input" name="name" value="">
                         <input id="id-button-submit" type="submit" name="name" value="Go">
@@ -202,6 +226,26 @@
                         </div>
                     </li>
                 </ul>
+            </section>
+            <section class="box-container">
+                <div class="abox">
+                    <figure>
+                        <h1>Communication<br>Graphic...</h1>
+                        <img src="images/nas.jpg" alt="" width="289" height="175"/>
+                    </figure>
+                </div>
+                <div class="abox">
+                    <figure>
+                        <h1>From the heart<br>Ideas...</h1>
+                        <img src="images/bror.jpg" alt="" width="289" height="175"/>
+                    </figure>
+                </div>
+                <div class="abox">
+                    <figure>
+                        <h1>Fluid from the<br>thought...</h1>
+                        <img src="images/nat.jpg" alt="" width="289" height="175"/>
+                    </figure>
+                </div>
             </section>
         </header>
 
